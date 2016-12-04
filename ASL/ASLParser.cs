@@ -58,14 +58,8 @@ namespace LiveSplit.ASL
                 states[process_name].Add(state);
             }
 
-
-	    throw new Exception("Virker det her?");
-	    private static test = new ASLMethod("");
-	    throw new Exception("Hvad med det her?");
-
+/*
             var methods = new ASLScript.Methods();
-
-	    throw new Exception("og her?");
 
             foreach (var method in methods_node.ChildNodes[0].ChildNodes)
             {
@@ -84,7 +78,7 @@ namespace LiveSplit.ASL
                     case "startup": methods.startup = script; break;
                     case "shutdown": methods.shutdown = script; break;
                 }
-            }
+            }*/
 
             return new ASLScript(methods, states);
         }
