@@ -78,9 +78,9 @@ namespace LiveSplit.ASL
                     case "startup": methods.startup = script; break;
                     case "shutdown": methods.shutdown = script; break;
                 }
-            }*/
+            }
 
-            return new ASLScript(methods, states);
+            return new ASLScript(methods, states);*/
         }
     }
 }
