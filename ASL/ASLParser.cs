@@ -58,6 +58,7 @@ namespace LiveSplit.ASL
                 states[process_name].Add(state);
             }
 
+	    var test = new ASLMethod("");
             var methods = new ASLScript.Methods();
 
             foreach (var method in methods_node.ChildNodes[0].ChildNodes)
